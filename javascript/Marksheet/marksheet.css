@@ -1,0 +1,47 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+body{
+    /* background-image: url("r1.jpeg"); */
+    height: 1200px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+     position: absolute;
+     background-image: linear-gradient(45deg, rgba(150,240,230,0.9) 80%, transparent 20%);
+     height: 300px;
+     width: 100%;
+
+}
+
+.logo{
+    position: absolute;
+    background-image: url("logo.jpg");
+    left: 60px;
+    top:30px;
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+
+.hi{
+    position: absolute;
+    left: 600px;
+    top: 10px ;
+    font-family: cursive;
+    font-size: 50px;
+    color:black;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: aquamarine;
+  font-family: cursive;
+}
+table {
+  border-spacing: 15px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cls(){
+            document.getElementById("lb").style.display="none"
+            document.getElementById("bg").style.opacity="1"
+        }
+    </script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #bg{
+            height: 1600px;
+            width: 100%;
+            background-color: blue;
+            float: left;
+            opacity: 0.1;
+            background-size: cover;
+            transition-duration: 5s;
+        }
+        #lb{
+            width: 50%;
+            background-color: orange;
+            height: 60vh;
+            margin-top: 20vh;
+            margin-left: 20%;
+            position: fixed;
+            transition-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg"></div>
+    <div id="lb" >
+        <a href="#" style="color: white; float: right; padding: 10px;" onclick="cls()">close</a>
+    </div>
+</body>
+</html>

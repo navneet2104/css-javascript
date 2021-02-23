@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="marksheet.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="hi"> RGPV RESULT </h1>
+            </div>
+            
+    </header>
+    <div>
+    <table style="width: 80%; position: absolute; left: 10%; top: 450px; height: 300px;">
+    <tr>
+        <th> Semester </th>
+        <th> Maths </th>
+        <th> Physics </th>
+        <th> Total </th>
+
+    </tr>
+
+    
+    <tr>
+        <th> SEM 1</th>
+        <th><input type="text" id="a1" placeholder="ENTER MARKS"></th>
+        <th><input type="text" id="a2" placeholder="ENTER MARKS" onchange="add()"></th>
+          
+        <tH><input id="a3"></tH>
+    </tr>
+    <tr>
+        <th> SEM 2 </th>
+        <th><input type="text" id="a4" placeholder="ENTER MARKS"> </th>
+        <th><input type="text" id="a5" placeholder="ENTER MARKS" onchange="add1()"></th>
+        
+        <th><input id="a6"></th>
+      </tr>
+      <tr>
+        <th> SEM 3</th>
+        <th><input type="text" id="a7" placeholder="ENTER MARKS"> </th>
+        <th><input type="text" id="a8" placeholder="ENTER MARKS" onchange="add2()"> </th>
+        
+        <th><input id="a9" onchange="total()"></th>
+      </tr>
+
+    </table>
+    <footer style="position: absolute; top: 1000px; width: 100%; left: 40%;">
+  <input type="text" id="g">
+  </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #h{
+            position: absolute;
+            top: 200px;
+            left: 20%;
+        }
+    </style>
+    <script>
+   function fun1(){
+       document.body.style.backgroundColor="red";
+
+   }
+
+   function fun2(){
+       document.body.style.backgroundColor="blue";
+
+   }
+
+   function fun3(){
+       document.body.style.backgroundColor="pink";
+   }
+
+   setInterval("fun1()",3000);
+   setInterval("fun2()",6000);
+   setInterval("fun3()",9000);
+
+    </script>
+</head>
+<body>
+    <h1 id="h"></h1>
+</body>
+</html>

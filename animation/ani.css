@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation: ani infinite 1s linear;
+}
+@keyframes ani{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(600px);
+    }
+}
